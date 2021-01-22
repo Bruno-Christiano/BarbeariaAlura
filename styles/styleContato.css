@@ -1,0 +1,153 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 50px 0;
+}
+
+form label, legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.inputPadrao {
+    display: block;
+    margin: 0 0 20px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    width: 50%;
+    transition: 0.3s all;
+}
+
+.inputPadrao:hover{
+    transform: scale(1.1);
+}
+
+.check{
+    margin-top: 20px;
+}
+
+select{
+    border-radius: 5px;
+    padding: 10px 25px;
+    width: 15%;
+}
+
+
+
+.btnSub{
+    width: 20%;
+    padding: 15px 0 ;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background:rgb(33, 33, 233) ;
+    transition: 1s  all;
+    cursor: pointer;
+    
+}
+
+.btnSub:hover{
+    background:rgb(19, 19, 102) ;
+    transform: scale(1.1);
+    
+   
+
+}
+
+
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.li{
+    text-decoration: none;
+}
+.header{
+    background:#bbbbbb ;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 10px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav a:hover {
+    color: rgb(73, 28, 11);
+    text-decoration: underline ;
+    
+}
+
+
+/*Formatando Rodapé*/
+
+footer{
+    text-align: center;
+    background: url("../assets/img/bg.jpg");
+    padding: 40px 0;
+}
+
+.textFooter{
+    color: white;
+    font-size: 13px;
+    margin: 25px 0;
+}
+
+/*Formatando tabela*/
+
+table{
+    margin: 20px 0px 40px;
+  
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px ;
+}
+
+th{
+    text-transform: uppercase;
+}
+td:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+    .caixa, main{
+        width: auto;
+    }
+
+    .header{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+}

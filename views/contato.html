@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styleContato.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="caixa">
+            <img src="../assets/img/logo.png" alt="Logo Barbearia-Produtos" srcset="">
+            <nav>
+                <ul>
+                    <li class="li"> <a href="index.html"> Home </a> </li>
+                    <li class="li"> <a href="produtos.html"> Produtos </a> </li>
+                    <li class="li"> <a href="contato.html"> Contato </a> </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+
+            <label for="nome"> Nome </label>
+            <input type="text" id="nome" placeholder="Nome" class="inputPadrao" required>
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" placeholder="Email" class="inputPadrao" required>
+
+            <label for="fone"> Telefone </label>
+            <input type="tel" id="fone" placeholder="Telefone" class="inputPadrao" required>
+
+            <label for="msg"> Mensagem </label>
+            <textarea name="" id="msg" cols="72" rows="10" class="inputPadrao" required> </textarea>
+
+            <fieldset>
+                <legend>Escolha um contato</legend>
+
+                <label for="radioEmail"> <input type="radio" name="contato" id="radioEmail" value="email" checked> Email
+                </label>
+
+                <label for="radioTelefone"> <input type="radio" name="contato" id="radioTelefone" value="Telefone">
+                    Telefone </label>
+
+
+                <label for="radioWhatsapp"> <input type="radio" name="contato" id="radioWhatsapp" value="Whatsapp">
+                    Whatsapp </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Escolha um turno </legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+
+            </fieldset>
+
+
+            <label for="check" class="check"> <input type="checkbox" id="check" value="">
+                Quer receber novidades?</label>
+
+            <input class="btnSub" type="submit" value="Enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h até 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h até 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h até 20h</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+    <footer class="rodape">
+        <img src="../assets/img/logo-branco.png" alt="Logo Barbearia-Rodapé" srcset="">
+        <p class="textFooter"> &copy; Alura Barbearia</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.li{
+    text-decoration: none;
+}
+.header{
+    background:#bbbbbb ;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 10px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav a:hover {
+    color: rgb(73, 28, 11);
+    text-decoration: underline ;
+    
+}
+
+/*---formatação do conteudo da lista do produto---*/
+/*Definindo o tamanho do bloco*/
+.list{
+    width: 940px;
+    margin: 0 auto;
+    padding:  50px 0;
+    position: relative;
+}
+/*configurando os itens e seu conteudo*/
+.list li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: 0 1.5%;
+    vertical-align: top;
+    border: 2px solid;
+    border-radius: 10px;
+    
+
+}
+
+.list li:hover{
+    border-color: rgb(172, 173, 80);
+    
+}
+.list li:hover h2{
+    font-size: 25px;
+}
+
+.list li:active{
+    border-color: green;
+}
+
+
+/*aplicando formatção do h2, cores tamanho...*/
+.list h2{
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: bold;
+    
+}
+
+.price{
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 10px;
+    
+}
+
+.description{
+    font-size: 18px;
+}
+
+
+
+/*Rodape*/
+
+footer{
+    text-align: center;
+    background: url("../assets/img/bg.jpg");
+    padding: 40px 0;
+}
+
+.textFooter{
+    color: white;
+    font-size: 13px;
+    margin: 25px 0;
+}
